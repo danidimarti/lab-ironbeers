@@ -16,6 +16,8 @@ app.get('/', (req, res, next) => {
   res.render('index');
 });
 
-
+app.get('/homepage', (req, res, next) => {
+  res.render('');
+});
 
 app.listen(3000);
